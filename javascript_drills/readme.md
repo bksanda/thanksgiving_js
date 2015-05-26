@@ -1,3 +1,6 @@
+###2014-2015, WDI COURSE ASSIGNMENT
+***
+
 #Javascript Drills
 
 Using the following data
@@ -45,7 +48,7 @@ Output
   [ 'Mumford and Sons', 'Sigh no more' ],
   [ 'MGMT', 'Time to Pretend' ] ]
 ```
-  
+
 ##pair(obj)
 Construct array pairs from Objects.
 
@@ -85,12 +88,12 @@ Return `true` or `false` if a number is a prime number
 Write a method to return the Nth number of Fibonacci sequence.
 
 `http://en.wikipedia.org/wiki/Fibonacci_number`
-  
+
 ##compress(string)
 Use a pattern and consolidate the amount of characters into a simplified string
 
 ```
-input  pattern = "AAASSSDDDDRDDSASSDDDSSSAD"  
+input  pattern = "AAASSSDDDDRDDSASSDDDSSSAD"
 output pattern = 3A3S4DR2DSA2S3D3SAD
 ```
 
@@ -100,14 +103,14 @@ If a chracter is only represented once, just put that letter
 **Hint** Use a loop to iterate over a string. You can reference characters in a string similar to an array.
 
   ----
-  
+
 #**BONUS**
 
 ##Print a multiplication table
 Write a program to print out a multiplication table, from 1x1 to 12x12. This should look like:
 
 ```
-   1   2   3   4   5   6   7   8   9  10  11  12  
+   1   2   3   4   5   6   7   8   9  10  11  12
    2   4   6   8  10  12  14  16  18  20  22  24
    3   6   9  12  15  18  21  24  27  30  33  36
    4   8  12  16  20  24  28  32  36  40  44  48
@@ -125,19 +128,19 @@ Write a program to print out a multiplication table, from 1x1 to 12x12. This sho
 
 Pascal triangle
 `https://en.wikipedia.org/wiki/Pascal's_triangle`
- 
+
 For those not familiar with Pascal's Triangle, it is very similar to Fibonacci's Sequence. It's a pyramid of numbers. The outside of the pyramid is all ones, the other numbers are the sum of the two numbers above, like this:
- 
+
 ```
 $ node pascal.js
-                            1                            
-                         1     1                         
-                      1     2     1                      
-                   1     3     3     1                   
-                1     4     6     4     1                
-             1     5    10    10     5     1             
-          1     6    15    20    15     6     1          
-       1     7    21    35    35    21     7     1       
-    1     8    28    56    70    56    28     8     1    
- 1     9    36    84    126   126   84    36     9     1 
+                            1
+                         1     1
+                      1     2     1
+                   1     3     3     1
+                1     4     6     4     1
+             1     5    10    10     5     1
+          1     6    15    20    15     6     1
+       1     7    21    35    35    21     7     1
+    1     8    28    56    70    56    28     8     1
+ 1     9    36    84    126   126   84    36     9     1
  ```
