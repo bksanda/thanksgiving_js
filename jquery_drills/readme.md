@@ -1,3 +1,6 @@
+###2014-2015, WDI COURSE ASSIGNMENT
+***
+
 #jQuery Drills
 
 This repository contains 5 challenges to help solidify what you've learned in jQuery so far. Each of the html files included in this repository contains instructions.

@@ -1,8 +1,7 @@
 $(function(){
 
+    //console.log('The dom is ready! (drill 1)');
 
-    console.log('The dom is ready! (drill 1)');
-    
     var dir = Math.random() > 0.49 ? '+' : '-';
 
     $('.shape').on('click', function() {
@@ -13,7 +12,7 @@ $(function(){
     		})
     		.fadeIn();
     })
-    	
+
 });
 
 

@@ -1,8 +1,7 @@
 $(function(){
 
+    //console.log('The dom is ready! (drill 2)');
 
-    console.log('The dom is ready! (drill 2)');
-    
     var minusDir = '-';
     var addDir = "+";
 
@@ -13,17 +12,17 @@ $(function(){
         	$('.shape').animate({
         		"left": minusDir+"="+10
       		});
-        } 
+        }
         else if (event.keyCode === 39) /*right*/ {
 			$('.shape').animate({
         		"left": addDir+"="+10
         	});
-        } 
+        }
         else if (event.keyCode === 38) /*bottom*/ {
 			$('.shape').animate({
         		"top": minusDir+"="+10
         	});
-        } 
+        }
         else if (event.keyCode === 40) /*top*/ {
 			$('.shape').animate({
         		"top": addDir+"="+10
@@ -45,6 +44,6 @@ $(function(){
 // -10, 10 top left corner
 // 790, 10 top right corner
 // 790, -390 bottom right corner
-  		
+
         console.log('The user pressed key: ',event.keyCode);
     });

@@ -1,3 +1,7 @@
+###2014-2015, WDI COURSE ASSIGNMENT
+####Jquery & JavaScript Drills over break.
+***
+
 #Thanksgiving.js
 
 
